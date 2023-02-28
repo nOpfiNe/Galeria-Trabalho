@@ -1,0 +1,104 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+body{
+    background-color: black;
+}
+
+  
+.container {
+    padding: 70px 0;
+}
+  
+/*title*/
+
+.main-title {
+    color: #ffffff;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.main-title::after {
+    content: " ";
+    border-top: 2px solid #ffffff;
+    width: 15%;
+    position: absolute;
+    top: 135px;
+    left: 42.5%;
+}
+
+/*img*/
+
+.room-gallery{
+    text-align: center;
+}
+
+.gallery-hightlight {
+    width: 30%;
+    height: 9%;
+    justify-content: center;
+  }
+  
+.room-preview {
+    display: flex;
+    position: relative;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.room-preview img {
+    flex-grow: 1;
+    margin-right: 10px;
+    height: 125px;
+    opacity: 0.5;
+    transition: opacity 0.4s ease;
+    cursor: pointer;
+    border: 3px solid white;
+    align-items: center;
+    justify-content: center;
+  }
+  
+img.room-active {
+    opacity: 1;
+} 
+
+/*footer*/ 
+
+footer{
+    padding-top: 35px;
+}
+.footer1{
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.footer1 a{
+    text-decoration: none;
+    color: #5C6BC0;
+    padding: 7px;
+    letter-spacing: 0.09em;
+    font-size: 16px;
+}
+
+.footer2{   
+    text-align: center;
+}
+
+.footer2 a{
+    text-decoration: none;
+    color: #5C6BC0;
+    padding: 7px;
+    letter-spacing: 0.08em;
+    font-size: 16px;
+}
+

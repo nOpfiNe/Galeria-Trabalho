@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rajdhani', sans-serif;
+
   }
 
 body{
@@ -15,6 +16,7 @@ body{
   
 .container {
     padding: 70px 0;
+    justify-content:center;
 }
   
 /*title*/
@@ -22,7 +24,7 @@ body{
 .main-title {
     color: #ffffff;
     margin: 0 0 65px 0;
-    font-size: 40px;
+    font-size: 3em;
     text-align: center;
     
 }
@@ -40,33 +42,31 @@ body{
 
 .room-gallery{
     text-align: center;
+    
 }
 
 .gallery-hightlight {
-    width: 30%;
+    width: 27%;
     height: 9%;
     justify-content: center;
+    border: 5px solid #ffffff;
   }
   
 .room-preview {
-    display: flex;
-    position: relative;
-    width: 40%;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+
+
+
 }
 
 .room-preview img {
     flex-grow: 1;
-    margin-right: 10px;
-    height: 125px;
+    height: 7.4rem;
     opacity: 0.5;
     transition: opacity 0.4s ease;
     cursor: pointer;
-    border: 3px solid white;
-    align-items: center;
-    justify-content: center;
-  }
+    border: 3px solid #ffffff;
+}
   
 img.room-active {
     opacity: 1;
@@ -87,7 +87,7 @@ footer{
     color: #5C6BC0;
     padding: 7px;
     letter-spacing: 0.09em;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .footer2{   
@@ -99,6 +99,39 @@ footer{
     color: #5C6BC0;
     padding: 7px;
     letter-spacing: 0.08em;
-    font-size: 16px;
+    font-size: 15px;
 }
 
+.footer1 img{
+    height: 1.6rem;
+}
+
+.footer2 img{
+    height: 1.4rem;
+}
+
+@media(max-width: 425px) {
+
+    .gallery-hightlight {
+        width: 29%;
+        height: 10%;
+    }
+    
+    .room-preview img {
+        height: 3.4rem;
+    }
+
+    .main-title{
+        font-size: 1.3em;
+    }
+
+    .main-title::after {
+        border: 1px solid black;
+    }
+
+    .fixarfooter{
+        position: fixed;
+    }
+}
+
+    

@@ -1,3 +1,15 @@
+
+var imgAtual = "img_music/mitski.jpeg" 
+var imgAnterior = "img_music/khelani.jpeg"
+
+function trocar() {
+    document.getElementById("figura").src = imgAtual
+    let aux = imgAtual
+    imgAtual = imgAnterior
+    imgAnterior = aux
+}
+
+
 function imageGallery() {
     const highlight = document.querySelector(".gallery-hightlight");
     const previews = document.querySelectorAll(".room-preview img");
@@ -11,6 +23,7 @@ function imageGallery() {
         preview.classList.add("room-active");
       });
     });
-  }
+}
   
 imageGallery();
+

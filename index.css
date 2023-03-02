@@ -38,6 +38,32 @@ body{
     left: 42.5%;
 }
 
+/*seta*/
+
+.btn{
+    color: #ffffff;
+    text-decoration: none;
+    position: absolute;
+
+    font-size: 75px;
+    text-align: center;
+    background-color: black;
+    transition: all 0.6s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+.next{
+    left: 5.5em;
+    top: 65%;
+}
+
+.prev{
+    right: 5.5em;
+    top: 65%;
+}
+
 /*img*/
 
 .room-gallery{
@@ -54,9 +80,6 @@ body{
   
 .room-preview {
     text-align: center;
-
-
-
 }
 
 .room-preview img {

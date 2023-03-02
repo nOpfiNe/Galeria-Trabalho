@@ -55,12 +55,12 @@ body{
     transform: scale(1.2);
 }
 .next{
-    left: 5.5em;
+    left: 8em;
     top: 65%;
 }
 
 .prev{
-    right: 5.5em;
+    right: 8em;
     top: 65%;
 }
 
